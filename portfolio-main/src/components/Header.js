@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import { Link } from "react-router-dom";
+
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -10,28 +10,29 @@ const Header = () => {
   return (
     <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
       <a href="/" className="logo text-2xl font-bold text-accent">
-        Phakitso
+        Phakitso Mohale
       </a>
 
       {/* Desktop Nav */}
       <nav className="hidden md:block">
         <ul className="flex">
           <li>
-            <a href="/#about">About</a>
+            <a href="/#about" className="text-2xl font-bold">About</a>
           </li>
           <li>
-            <a href="/#projects">Projects</a>
+            <a href="/#projects" className="text-2xl font-bold">Projects</a>
           </li>
 
           <li>
-            <a href="/#contact">Contact</a>
+            <a href="/#contact" className="text-2xl font-bold">Contact</a>
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1ugumpTwoA8vtAAWw2ezI0CZP2IGUwPzF/view"
+              href="https://drive.google.com/file/d/1eQFmoKqRutx2Ue3th7zrBCEaHH8LXgHa/view?usp=drivesdk"
               target="_blank"
               without
               rel="noreferrer"
+              className="text-2xl font-bold"
             >
               Resume
             </a>
@@ -45,17 +46,17 @@ const Header = () => {
       >
         <ul className="flex flex-col">
           <li>
-            <a href="/#about">About</a>
+            <a href="/#about" className="text-2xl font-bold">About</a>
           </li>
           <li>
-            <a href="/#projects">Projects</a>
+            <a href="/#projects" className="text-2xl font-bold">Projects</a>
           </li>
-          
+
           <li>
-            <a href="/#contact">Contact</a>
+            <a href="/#contact" className="text-2xl font-bold">Contact</a>
           </li>
           <li>
-            <a href="/#resume">Resume</a>
+            <a href="/#resume" className="text-2xl font-bold">Resume</a>
           </li>
         </ul>
       </nav>

@@ -12,23 +12,24 @@ body {
 
 .projects img {
     width: 100%;
+    
 }
 
 /* color */
 .bg-primary {
-    background: #0F172A;
+    background: rgb(80 7 36);
 }
 
 .bg-secondery {
-    background: #1E293B;
+    background: rgb(131 24 67);
 }
 
 .bg-accent {
-    background: #7477FF;
+    background: rgb(248 113 113);
 }
 
 .text-accent {
-    color: #7477FF;
+    color: rgb(252 165 165);
 }
 
 
@@ -37,7 +38,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #7477FF;
+    color: rgb(116, 119, 255);
 }
 
 .mobile-nav {

@@ -1,31 +1,25 @@
 import React from "react";
-import cssProjects from "../assets/cssprojects.png";
-import devlog from "../assets/devlog.png";
+import cssProjects from "../assets/duckhunt.png";
+import devlog from "../assets/dfs.png";
 import getInspirred from "../assets/get-inspirred.png";
-import uilogs from "../assets/uilogs.png";
+
 
 const Projects = () => {
   const projects = [
     {
       img: devlog,
-      title: "devlog",
-      desc: " A multi author blog. Built with Node.js, MongoDB, React, Redux and Tailwind CSS ",
-      live: "https://devlogg.onrender.com/",
-      code: "https://github.com/Coderamrin/devlog",
+      title: "Digital Fashion Store",
+      desc: " A collaboration e-commerce store. Built with MongoDB, Express.JS, Angular, Node.js, and Bootstrap ",
+      live: "https://dfs-six.vercel.app/",
+      code: "https://github.com/VutomiKhosa-99/Digital_Store",
     },
-    {
-      img: uilogs,
-      title: "uilogs",
-      desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap, JQuery and JavaScript",
-      live: "https://uilogs.xyz/",
-      code: "https://github.com/Coderamrin/html-templates",
-    },
-    {
+
+    { 
       img: cssProjects,
-      title: "css projects",
-      desc: "Frontend Mentor challange directory, solved with vanilla CSS",
-      live: "https://build-10-css-projects.netlify.app/",
-      code: "https://github.com/Coderamrin/build-10-css-projects",
+      title: "Scratch Game Development",
+      desc: "This game was developed using Scratch Programming",
+      live: "https://scratch.mit.edu/projects/555102361",
+      code: "https://scratch.mit.edu/projects/555102361/editor/",
     },
     {
       img: getInspirred,
@@ -40,13 +34,14 @@ const Projects = () => {
     <section className="bg-primary text-white px-5 py-32" id="projects">
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
         <div className="about-info mb-5">
-          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
+          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-black pb-2">
             Projects
           </h2>
 
           <p className="pb-5">
-            These are some of my best projects. I have built these with React,
-            MERN and vanilla CSS. Check them out.
+            These are some of my best projects. I have built the e-commerce site with Angular, HTML, CSS and JavaScript.
+            And the game with Scratch 2.0
+            Check them out.
           </p>
         </div>
 
