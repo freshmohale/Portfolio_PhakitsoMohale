@@ -1,7 +1,7 @@
 import React from "react";
 import cssProjects from "../assets/duckhunt.png";
 import devlog from "../assets/dfs.png";
-import getInspirred from "../assets/get-inspirred.png";
+import getInspirred from "../assets/bookstore.png";
 
 
 const Projects = () => {
@@ -23,10 +23,10 @@ const Projects = () => {
     },
     {
       img: getInspirred,
-      title: "get Inspirred",
-      desc: "Quote search app. Used Quotable API for the quotes and React, Redux on the frontend",
-      live: "https://get-inspirred.netlify.app/",
-      code: "https://github.com/Coderamrin/get-inspired",
+      title: "FreshBookStore",
+      desc: "This is the very first project I did using HTML and CSS",
+      live: "https://phakitsomohale-itvarsity.github.io/FreshBookStore-Module1-Assessment6/index.html",
+      code: "https://github.com/phakitsomohale-ITvarsity/FreshBookStore-Module1-Assessment6",
     },
   ];
 
@@ -39,8 +39,8 @@ const Projects = () => {
           </h2>
 
           <p className="pb-5">
-            These are some of my best projects. I have built the e-commerce site with Angular, HTML, CSS and JavaScript.
-            And the game with Scratch 2.0
+            These are some of my begginers projects. I have built the e-commerce site with Angular, HTML, CSS and JavaScript.
+            And the game with Scratch 2.0 using Scracth Programming and the online bookstore was built using HTML & CSS.
             Check them out.
           </p>
         </div>
